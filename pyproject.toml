@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qgravnet"
+description = "Quantized Model of GravNet leveraging QKeras"
+version = "0.1.0"
+authors = [
+    { name = "Marc Neu", email = "neu@kit.edu"},
+    { name = "Isabel Haide", email = "isabel.haide@kit.edu" },
+    { name = "Frank Baptist", email = "frank.baptist@student.kit.edu" }
+]
+dependencies = [
+    "qkeras",
+]
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+
+[tool.setuptools]
+packages = ["qgravnet"]
+
