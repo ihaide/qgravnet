@@ -1,4 +1,4 @@
-# GravNet
+# QGravNet
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ Additional Notes:
 
 ## QGravNet
 
-Contains custom layers for the implementation of GraVNet
+Contains custom layers for the implementation of QGraVNet
 
 ## Examples
 
